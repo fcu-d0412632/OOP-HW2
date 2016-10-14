@@ -17,7 +17,7 @@ public class KeyboardScanner {
         System.out.print("Enter a name: ");
         String name = scanner.next();
         
-        System.out.printf("Hello %s, the multiplication of %s and %f is %.2e", name , num1 , num2 , (float) num1 * num2);
+        System.out.printf("Hello %s, the multiplication of %d and %f is %.2e", name , num1 , num2 , (float) num1 * num2);
 	}
 
 }
